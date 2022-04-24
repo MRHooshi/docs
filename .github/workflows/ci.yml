@@ -14,12 +14,12 @@ jobs:
       - name: Install and Build
         run: |
           echo "Install Requirements."
-          sudo apt install -y ruby ruby-dev build-essential libffi-dev zlib1g-dev liblzma-dev nodejs patch
-          sudo gem update --system
-          sudo gem install bundler
-          cd ./slate_project && bundle install && cd ..
-          npm install drafter
-          echo "Running install script"
+          # sudo apt install -y ruby ruby-dev build-essential libffi-dev zlib1g-dev liblzma-dev nodejs patch
+          # sudo gem update --system
+          # sudo gem install bundler
+          # cd ./slate_project && bundle install && cd ..
+          # npm install drafter
+          # echo "Running install script"
           sh update.sh
 
       - name: Deploy
@@ -29,6 +29,6 @@ jobs:
           folder: docs
           clean: true
           clean-exclude: |
-            *.html
+            docs/*/*.html
           target-folder: 'docs'
           
