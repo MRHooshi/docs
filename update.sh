@@ -1,2 +1,2 @@
-echo "hi" >> docs/harf/index.html
-echo "hi" >> docs/harf/index.json
+echo "hi" >> docs/kashf/index.html
+echo "hi" >> docs/kashf/index.json

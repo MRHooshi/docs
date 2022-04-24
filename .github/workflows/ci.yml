@@ -29,12 +29,6 @@ jobs:
           folder: docs
           clean: true
           clean-exclude: |
-            */*.html
-            docs/alefba/*.html
-            docs/baaz/*.html
-            docs/golrokh/*.html
-            docs/kashf/*.html
-            docs/naghsh/*.html
-            docs/parde/*.html
+            */*.json
           target-folder: 'docs'
           
