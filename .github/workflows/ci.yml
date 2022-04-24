@@ -29,6 +29,12 @@ jobs:
           folder: docs
           clean: true
           clean-exclude: |
-            docs/*/*.html
+            docs/harf/*.html
+            docs/alefba/*.html
+            docs/baaz/*.html
+            docs/golrokh/*.html
+            docs/kashf/*.html
+            docs/naghsh/*.html
+            docs/parde/*.html
           target-folder: 'docs'
           
