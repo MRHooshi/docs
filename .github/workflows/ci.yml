@@ -27,9 +27,9 @@ jobs:
         with:
           branch: main
           folder: docs
-          clean: false
+          clean: true
           clean-exclude: |
-            docs/harf/*.html
+            harf/*.html
             docs/alefba/*.html
             docs/baaz/*.html
             docs/golrokh/*.html
