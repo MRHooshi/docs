@@ -29,6 +29,6 @@ jobs:
           folder: docs
           clean: true
           clean-exclude: |
-            */*.html
+            *.html
           target-folder: 'docs'
           
