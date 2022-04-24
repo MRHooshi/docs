@@ -29,7 +29,7 @@ jobs:
           folder: docs
           clean: true
           clean-exclude: |
-            harf/*.html
+            */*.html
             docs/alefba/*.html
             docs/baaz/*.html
             docs/golrokh/*.html
