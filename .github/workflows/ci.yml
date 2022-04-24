@@ -27,7 +27,7 @@ jobs:
         with:
           branch: main
           folder: docs
-          clean: true
+          clean: false
           clean-exclude: |
             docs/harf/*.html
             docs/alefba/*.html
